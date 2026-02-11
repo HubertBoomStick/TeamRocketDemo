@@ -11,5 +11,13 @@ Pip Install
 Virtual Space
 
 - mkdir [directory name]
+  
 - cd [directory name]
+  
 - sudo apt install python3.12-venv
+
+Activating Virtual Space
+
+- python3 -m venv .venv
+  
+- source .venv/bin/activate
