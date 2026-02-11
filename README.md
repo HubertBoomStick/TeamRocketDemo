@@ -5,3 +5,8 @@ Pip Install
 - sudo apt install python3-pip
 
 - pip3 --version
+
+Virtual Space
+
+- mkdir [directory name]
+- cd [directory nam]
