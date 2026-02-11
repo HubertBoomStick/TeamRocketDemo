@@ -1,27 +1,33 @@
-Python can be run on Visual Studio Code
+# Team Rocket Project
 
-Pip Install
 
-- sudo apt update
+This is Rocket Project!
 
-- sudo apt install python3-pip
+installation!
+```
+sudo apt update
+sudo apt install -y \
+  git \
+  python3 \
+  python3-pip \
+  python3-venv \
+  build-essential \
+  curl
+```
 
-- pip3 --version
+Create a Python virtual environment and activate it
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-Virtual Space
+Install dependencies
+```
+pip install --upgrade pip
+pip install fastapi "uvicorn[standard]"
+```
 
-- mkdir [directory name]
-  
-- cd [directory name]
-  
-- sudo apt install python3.12-venv
-
-Activating Virtual Space
-
-- python3 -m venv .venv
-  
-- source .venv/bin/activate
-
-Flask Install
-
-- pip install Flask
+Run the server
+```
+uvicorn main:app --reload
+```
