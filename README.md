@@ -1,5 +1,7 @@
 Python can be run on Visual Studio Code
 
+Flask Dependency Install 
+
 Pip Install
 
 - sudo apt update
@@ -21,3 +23,7 @@ Activating Virtual Space
 - python3 -m venv .venv
   
 - source .venv/bin/activate
+
+Flask Install
+
+- pip install Flask
