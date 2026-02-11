@@ -7,6 +7,7 @@ app = FastAPI()
 def root_get():
     return "Hello World"
 
-@app.post("/")
-def root_post():
-    return {"msg": "pong"}
+
+@app.get("/quest")
+def quest_get():
+    return {"msg" : "pong"}
