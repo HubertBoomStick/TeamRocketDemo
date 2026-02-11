@@ -31,3 +31,22 @@ Run the server
 ```
 uvicorn main:app --reload
 ```
+
+--------------------------------------------------------------
+Fix the problem
+```
+sudo apt update
+sudo apt install -y python3-venv python3-pip
+```
+
+Reactivate
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Now run this
+```
+python -m pip install --upgrade pip
+python -m pip install fastapi "uvicorn[standard]"
+```
