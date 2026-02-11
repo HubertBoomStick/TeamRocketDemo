@@ -1,3 +1,5 @@
+Python can be run on Visual Studio Code
+
 Pip Install
 
 - sudo apt update
@@ -9,4 +11,4 @@ Pip Install
 Virtual Space
 
 - mkdir [directory name]
-- cd [directory nam]
+- cd [directory name]
