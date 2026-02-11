@@ -1,7 +1,5 @@
 Python can be run on Visual Studio Code
 
-Flask Dependency Install 
-
 Pip Install
 
 - sudo apt update
