@@ -12,3 +12,4 @@ Virtual Space
 
 - mkdir [directory name]
 - cd [directory name]
+- sudo apt install python3.12-venv
